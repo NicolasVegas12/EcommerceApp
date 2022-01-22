@@ -7,8 +7,9 @@ import androidx.room.PrimaryKey
 class PedidoDB(
     @PrimaryKey
     var idOrder:Int=0,
-    var idRepartidor:Int=0,
+    var nombreCliente:String="",
     var direccion:String="",
+    var referencia:String="",
     var contacto:String="",
     var telefono:String="",
     var status:Char='P'
